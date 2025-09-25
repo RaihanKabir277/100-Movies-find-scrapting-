@@ -11,20 +11,29 @@ This is a mini Python project that scrapes the **"100 Best Movies"** list from [
 ---
 
 
+
+---
+
+## 🛠️ Technology Stack
+- **Python 3** → Core programming language  
+- **Requests** → Fetching webpage content  
+- **BeautifulSoup4** → Parsing and extracting HTML data  
+- **File Handling (I/O)** → Writing cleaned movie titles into a `.txt` file  
+
 ---
 
 ## 🚀 Features
-- Uses **BeautifulSoup** and **Requests** to scrape data.
-- Extracts all **100 movie titles** from the archived webpage.
-- Cleans the titles (removes numbering like `100)`).
-- Reverses the list so the #1 movie appears at the top.
-- Saves the final list into a `movies.txt` file (UTF-8 encoded).
+- Scrapes **100 movie titles** from an archived webpage.
+- Cleans movie titles (removes numbering like `100)`).
+- Reverses the order so the **#1 movie appears at the top**.
+- Saves the results into a UTF-8 encoded `movies.txt` file.
 
 ---
 
-## 🛠️ Requirements
+## 📦 Requirements
 Make sure you have Python installed, then install dependencies:
 
 ```bash
 pip install requests beautifulsoup4
+
 
